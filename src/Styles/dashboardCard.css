@@ -4,14 +4,27 @@
 .red{
     color: tomato;
 }
-.Card-container{
+.Card-containerWhite{
+    margin-left: 20px;
+    margin-right: 20px;
     width: auto;
     border: none;
     background-color: #f0f3fa;
     border-radius: 8px;
     height: 170px;
     padding: 1.7em 0;
-    
+    color: #252b43;
+}
+.Card-containerDark{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+    border: none;
+    background-color: #252b43;
+    border-radius: 8px;
+    height: 170px;
+    padding: 1.7em 0;
+    color: white;
 }
 div{
     text-align: center;

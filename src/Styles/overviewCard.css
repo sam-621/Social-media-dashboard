@@ -4,7 +4,12 @@
 .red{
     color: tomato;
 }
-
+.page-views{
+    margin: 0;
+}
+.p{
+    margin: 0;
+}
 .OverviewCard-container{
     display: grid;
     grid-gap: 40px;

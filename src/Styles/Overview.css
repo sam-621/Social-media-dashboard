@@ -4,14 +4,24 @@
 .Overview h1{
     text-align: start;
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 .Overview-container{
+    margin-left: 20px;
+    margin-right: 20px;
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 20px;
 }
-.Overview-container div{
+.OverviewCard-white{
     background-color: #f0f3fa;
-    padding: 8px;
+    padding: 15px;
+    border-radius: 8px;
+    color: #252b43;
+}
+.OverviewCard-dark{
+    color: white;
+    background-color: #252b43;
+    padding: 15px;
     border-radius: 8px;
 }

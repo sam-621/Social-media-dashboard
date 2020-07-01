@@ -6,12 +6,12 @@ const OverviewCard = (props) => {
     return(
         <div className="OverviewCard-container">
             <div>
-                <p>Page Views</p>
-                <img src={icon} alt="icon"/>
+                <p className="page-views">Page Views</p>
+                <img src={icon} alt="icon" width="20px" height="20px"/>
             </div>
             <div>
                 <h2>{views}</h2>
-                <p className={isOk ? 'green' : 'red'}>{porcent}</p>
+                <p className={isOk ? 'green p' : 'red p'}>{porcent}</p>
             </div>
         </div>
     );

@@ -4,10 +4,10 @@ import '../Styles/dashboardCard.css'
 
 const DashboardCard = (props) => {
 
-    const { name, Followers, isOk, icon } = props
+    const { colorTheme, name, Followers, isOk, icon } = props
 
     return(
-        <div className="Card-container">
+        <div className={colorTheme ? 'Card-containerWhite' : 'Card-containerDark'}>
             <div className="Me">
                 <p><img src={icon} alt="Facebook icon"/>  @{name}</p>
             </div>

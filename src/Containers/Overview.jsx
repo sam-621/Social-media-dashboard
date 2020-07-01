@@ -7,12 +7,13 @@ import Insta from '../img/icon-instagram.svg'
 import YT from '../img/icon-youtube.svg'
 import Twitter from '../img/icon-twitter.svg'
 
-const Overview = () => {
+const Overview = (props) => {
+    const { colorTheme } = props;
     return(
         <div className="Overview">
-            <h1>Overview - Today</h1>
+            <h1 style={colorTheme ? {color: 'black'} : {color: 'white'}}>Overview - Today</h1>
             <div className="Overview-container">
-                <div>
+                <div className={colorTheme ? 'OverviewCard-white' : 'OverviewCard-dark'}>
                     <OverviewCard
                     icon={FB}
                     views={78}
@@ -20,14 +21,14 @@ const Overview = () => {
                     isOk
                 />
                 </div>
-                <div>
+                <div className={colorTheme ? 'OverviewCard-white' : 'OverviewCard-dark'}>
                     <OverviewCard
                     icon={FB}
                     views={78}
                     porcent="2"
                 />
                 </div>
-                <div>
+                <div className={colorTheme ? 'OverviewCard-white' : 'OverviewCard-dark'}>
                     <OverviewCard
                     icon={Insta}
                     views={78}
@@ -35,7 +36,7 @@ const Overview = () => {
                     isOk
                 />
                 </div>
-                <div>
+                <div className={colorTheme ? 'OverviewCard-white' : 'OverviewCard-dark'}>
                     <OverviewCard
                     icon={Insta}
                     views={78}
@@ -43,7 +44,7 @@ const Overview = () => {
                     isOk
                 />
                 </div>
-                <div>
+                <div className={colorTheme ? 'OverviewCard-white' : 'OverviewCard-dark'}>
                     <OverviewCard
                     icon={Twitter}
                     views={78}
@@ -51,7 +52,7 @@ const Overview = () => {
                     isOK
                 />
                 </div>
-                <div>
+                <div className={colorTheme ? 'OverviewCard-white' : 'OverviewCard-dark'}>
                     <OverviewCard
                     icon={Twitter}
                     views={78}
@@ -59,14 +60,14 @@ const Overview = () => {
                     isOk
                 />
                 </div>
-                <div>
+                <div className={colorTheme ? 'OverviewCard-white' : 'OverviewCard-dark'}>
                     <OverviewCard
                     icon={YT}
                     views={78}
                     porcent="19"
                 />
                 </div>
-                <div>
+                <div className={colorTheme ? 'OverviewCard-white' : 'OverviewCard-dark'}>
                     <OverviewCard
                     icon={YT}
                     views={78}

@@ -13,19 +13,18 @@ class App extends React.Component {
         this.switcher = this.switcher.bind(this);
     }
 
-    switcher(e) {
+    switcher() {
         this.setState({
             colorTheme: !this.state.colorTheme,
-            comeText: 'noHi'
         });
     }
 
     render() {
         return(
             <div className={this.state.colorTheme ? 'whiteMode' : 'darkMode'}>
-                <div style={{marginLeft: 30 + 'px', marginRight: 30+'px'}}>
-                    <Dashboard changeThemeColor={this.switcher} />
-                    <Overview />
+                <div>
+                    <Dashboard changeThemeColor={this.switcher} colorTheme={this.state.colorTheme} />
+                    <Overview colorTheme={this.state.colorTheme} />
                 </div>
             </div>
         );

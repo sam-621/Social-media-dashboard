@@ -1,16 +1,28 @@
-#whiteMode{
-    background-color: white;
+.white{
+    color: black;
 }
-#darkMode{
-    background-color: #1d2029;
+.dark{
+    color: #8088ad;
 }
 
-.DarkMode-Container div h1, p{
+.Logo{
     text-align: start;
-    margin: 0;
+    margin-left: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
 }
-.DarkMode-Container{
+.h1{
+    margin-top: 20px;
+}
+.WhiteMode-Container{
     background-color: #f7f7f7;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+.DarkMode-container{
+    color: white; /*8088ad*/
+    background-color: #1d2029;
     height: 170px;
     display: flex;
     justify-content: space-between;

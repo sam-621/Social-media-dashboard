@@ -8,13 +8,13 @@ import YT from '../img/icon-youtube.svg'
 import Twitter from '../img/icon-twitter.svg'
 
 const DashBoard = (props) => {
-    const { changeThemeColor} = props;
+    const { changeThemeColor, colorTheme} = props;
     return(
         <>
-            <div className="DarkMode-Container">
+            <div className={colorTheme ? "WhiteMode-Container" : "DarkMode-container"}>
                 <div>
-                    <h1>Social Media Dashboard</h1>
-                    <p>Total Followers: 25</p>
+                    <h1 className="Logo h1">Social Media Dashboard</h1>
+                    <p className={colorTheme ? "Logo white" : "Logo dark"}>Total Followers: 25</p>
                 </div>
                 <div className="switcher">
                     <button onClick={changeThemeColor}>Toggle</button>
@@ -23,6 +23,7 @@ const DashBoard = (props) => {
             <div className="Cards-container">
                 <div>
                     <DashboardCard
+                        colorTheme={colorTheme}
                         name="rogeliosamuel621"
                         Followers="25"
                         icon={FB}
@@ -31,6 +32,7 @@ const DashBoard = (props) => {
                 </div>
                 <div>
                     <DashboardCard
+                        colorTheme={colorTheme}
                         name="rogeliosamuel621"
                         Followers="25"
                         icon={Insta}
@@ -39,6 +41,7 @@ const DashBoard = (props) => {
                 </div>
                 <div>
                     <DashboardCard
+                        colorTheme={colorTheme}
                         name="rogeliosamuel621"
                         Followers="25"
                         icon={Twitter}
@@ -47,6 +50,7 @@ const DashBoard = (props) => {
                 </div>
                 <div>
                     <DashboardCard
+                        colorTheme={colorTheme}
                         name="rogeliosamuel621"
                         Followers="25"
                         icon={YT}
