@@ -11,12 +11,12 @@ const Overview = (props) => {
     const { colorTheme } = props;
     return(
         <div className="Overview">
-            <h1 style={colorTheme ? {color: 'black'} : {color: 'white'}}>Overview - Today</h1>
+            <h1 style={colorTheme ? {color: '#5f616d'} : {color: 'white'}}>Overview - Today</h1>
             <div className="Overview-container">
                 <div className={colorTheme ? 'OverviewCard-white' : 'OverviewCard-dark'}>
                     <OverviewCard
                     icon={FB}
-                    views={78}
+                    views={87}
                     porcent="3"
                     isOk
                 />
@@ -24,14 +24,14 @@ const Overview = (props) => {
                 <div className={colorTheme ? 'OverviewCard-white' : 'OverviewCard-dark'}>
                     <OverviewCard
                     icon={FB}
-                    views={78}
+                    views={52}
                     porcent="2"
                 />
                 </div>
                 <div className={colorTheme ? 'OverviewCard-white' : 'OverviewCard-dark'}>
                     <OverviewCard
                     icon={Insta}
-                    views={78}
+                    views={5462}
                     porcent="2257"
                     isOk
                 />
@@ -39,7 +39,7 @@ const Overview = (props) => {
                 <div className={colorTheme ? 'OverviewCard-white' : 'OverviewCard-dark'}>
                     <OverviewCard
                     icon={Insta}
-                    views={78}
+                    views={'52k'}
                     porcent="1375"
                     isOk
                 />
@@ -47,7 +47,7 @@ const Overview = (props) => {
                 <div className={colorTheme ? 'OverviewCard-white' : 'OverviewCard-dark'}>
                     <OverviewCard
                     icon={Twitter}
-                    views={78}
+                    views={117}
                     porcent="303"
                     isOK
                 />
@@ -55,7 +55,7 @@ const Overview = (props) => {
                 <div className={colorTheme ? 'OverviewCard-white' : 'OverviewCard-dark'}>
                     <OverviewCard
                     icon={Twitter}
-                    views={78}
+                    views={507}
                     porcent="553"
                     isOk
                 />
@@ -63,14 +63,14 @@ const Overview = (props) => {
                 <div className={colorTheme ? 'OverviewCard-white' : 'OverviewCard-dark'}>
                     <OverviewCard
                     icon={YT}
-                    views={78}
+                    views={107}
                     porcent="19"
                 />
                 </div>
                 <div className={colorTheme ? 'OverviewCard-white' : 'OverviewCard-dark'}>
                     <OverviewCard
                     icon={YT}
-                    views={78}
+                    views={1407}
                     porcent="12"
                 />
                 </div>

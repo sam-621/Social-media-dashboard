@@ -5,8 +5,6 @@
     color: tomato;
 }
 .Card-containerWhite{
-    margin-left: 20px;
-    margin-right: 20px;
     width: auto;
     border: none;
     background-color: #f0f3fa;
@@ -16,8 +14,6 @@
     color: #252b43;
 }
 .Card-containerDark{
-    margin-left: 20px;
-    margin-right: 20px;
     width: auto;
     border: none;
     background-color: #252b43;
@@ -26,8 +22,13 @@
     padding: 1.7em 0;
     color: white;
 }
-div{
-    text-align: center;
+.today{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.today img{
+    margin-right: 5px;
 }
 .Me, .Followers{
     margin-bottom: 1em;
@@ -45,6 +46,7 @@ div{
     text-align: center;
 }
 .Follower-status{
+    margin: 0;
     text-align: center;
 }
 .Followers p strong{

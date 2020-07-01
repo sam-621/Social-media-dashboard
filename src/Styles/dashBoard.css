@@ -10,9 +10,18 @@
     margin-left: 30px;
     margin-bottom: 0;
     margin-top: 0;
+    font-weight: 650;
+    color: #8088ad;
 }
 .h1{
-    margin-top: 20px;
+    color: #1d2029;
+    margin-top: 32px;
+    font-size: 27px;
+}
+.h1-dark{
+    color: white;
+    margin-top: 32px;
+    font-size: 27px;
 }
 .WhiteMode-Container{
     background-color: #f7f7f7;
@@ -33,7 +42,8 @@
     align-self: center;
 }
 .Cards-container{
-    margin-top: -50px;
+    margin: -50px 20px 0 20px;
+    /* margin-top: -50px; */
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 20px;

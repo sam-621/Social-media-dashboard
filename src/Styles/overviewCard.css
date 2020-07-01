@@ -5,14 +5,21 @@
     color: tomato;
 }
 .page-views{
+    font-weight: bold;
+    color: #8088ad;
     margin: 0;
+}
+.numberOfViews{
+    font-size: 37.5px;
+    font-weight: bold;
 }
 .p{
     margin: 0;
+    align-self: center;
 }
 .OverviewCard-container{
     display: grid;
-    grid-gap: 40px;
+    grid-gap: 33px;
 }
 .OverviewCard-container div{
     display: flex;

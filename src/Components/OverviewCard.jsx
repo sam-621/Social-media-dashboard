@@ -1,6 +1,8 @@
 import React from 'react';
-import '../Styles/overviewCard.css'
+import '../Styles/overviewCard.css';    
 
+import GreenArrow from '../img/flecha-hacia-arriba.svg';
+import RedArrow from '../img/flecha-hacia-arriba-red.svg';
 const OverviewCard = (props) => {
     const { icon, views, porcent, isOk } = props;
     return(
@@ -10,8 +12,11 @@ const OverviewCard = (props) => {
                 <img src={icon} alt="icon" width="20px" height="20px"/>
             </div>
             <div>
-                <h2>{views}</h2>
-                <p className={isOk ? 'green p' : 'red p'}>{porcent}</p>
+                <h2 className="numberOfViews">{views}</h2>
+                <div className="today">
+                    <img src={isOk ? GreenArrow : RedArrow} alt="" width="10px" height="10px"/>
+                    <p className={isOk ? 'green p' : 'red p'}>{porcent}</p>
+                </div>
             </div>
         </div>
     );

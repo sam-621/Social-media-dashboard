@@ -3,9 +3,10 @@ import '../Styles/dashBoard.css'
 
 import DashboardCard from '../Components/DashboardCard'
 import FB from '../img/icon-facebook.svg';
-import Insta from '../img/icon-instagram.svg'
-import YT from '../img/icon-youtube.svg'
-import Twitter from '../img/icon-twitter.svg'
+import Insta from '../img/icon-instagram.svg';
+import YT from '../img/icon-youtube.svg';
+import Twitter from '../img/icon-twitter.svg';
+
 
 const DashBoard = (props) => {
     const { changeThemeColor, colorTheme} = props;
@@ -13,7 +14,7 @@ const DashBoard = (props) => {
         <>
             <div className={colorTheme ? "WhiteMode-Container" : "DarkMode-container"}>
                 <div>
-                    <h1 className="Logo h1">Social Media Dashboard</h1>
+                    <h1 className={colorTheme ? "Logo h1" : "Logo h1-dark"}>Social Media Dashboard</h1>
                     <p className={colorTheme ? "Logo white" : "Logo dark"}>Total Followers: 25</p>
                 </div>
                 <div className="switcher">
@@ -25,6 +26,7 @@ const DashBoard = (props) => {
                     <DashboardCard
                         colorTheme={colorTheme}
                         name="rogeliosamuel621"
+                        today="12"
                         Followers="25"
                         icon={FB}
                         isOk="true"
@@ -34,6 +36,7 @@ const DashBoard = (props) => {
                     <DashboardCard
                         colorTheme={colorTheme}
                         name="rogeliosamuel621"
+                        today="99"
                         Followers="25"
                         icon={Insta}
                         isOk="true"
@@ -42,7 +45,8 @@ const DashBoard = (props) => {
                 <div>
                     <DashboardCard
                         colorTheme={colorTheme}
-                        name="rogeliosamuel621"
+                        name="RogelioSamuel2"
+                        today="1099"
                         Followers="25"
                         icon={Twitter}
                         isOk="true"
@@ -52,9 +56,9 @@ const DashBoard = (props) => {
                     <DashboardCard
                         colorTheme={colorTheme}
                         name="rogeliosamuel621"
+                        today="144"
                         Followers="25"
                         icon={YT}
-                        isOk="true"
                     />
                 </div>
             </div>

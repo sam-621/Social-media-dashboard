@@ -1,10 +1,13 @@
 import React from 'react';
-import '../Styles/dashboardCard.css'
+import '../Styles/dashboardCard.css';
+
+import GreenArrow from '../img/flecha-hacia-arriba.svg';
+import RedArrow from '../img/flecha-hacia-arriba-red.svg';
 
 
 const DashboardCard = (props) => {
 
-    const { colorTheme, name, Followers, isOk, icon } = props
+    const { colorTheme, name, today, Followers, isOk, icon } = props
 
     return(
         <div className={colorTheme ? 'Card-containerWhite' : 'Card-containerDark'}>
@@ -14,8 +17,9 @@ const DashboardCard = (props) => {
             <div className="Followers">
                 <p><strong>{Followers}</strong> <br/> F O L L O W E R S</p>
             </div>
-            <div>
-                <p className={isOk ? 'green Follower-status' : 'red Follower-status'}>12 today</p>
+            <div className="today">
+                <img src={isOk ? GreenArrow : RedArrow} alt="arrow" width="10px" height="10px"/>
+                <p className={isOk ? 'green Follower-status' : 'red Follower-status'}>{today}</p>
             </div>
         </div>
     );
