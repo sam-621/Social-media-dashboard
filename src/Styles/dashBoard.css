@@ -1,0 +1,25 @@
+*{
+    color: white;
+}
+#whiteMode{
+    background-color: #1d2029;
+}
+
+#darkMode{
+    background-color: white;
+}
+
+h1, p{
+    margin: 0;
+}
+.DarkMode-Container{
+    display: flex;
+    justify-content: space-between;
+}
+.DarkMode-Container div{
+    margin: 0 20px;
+}
+.switcher{
+    height: 100%;
+    align-self: center;
+}

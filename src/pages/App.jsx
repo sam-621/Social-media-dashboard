@@ -8,7 +8,6 @@ class App extends React.Component {
         super(props);
         this.state = {
             colorTheme: true, //true = whiteMode. False = DarkMode.
-            comeText: 'hi'
         }
         this.switcher = this.switcher.bind(this);
     }
@@ -21,11 +20,9 @@ class App extends React.Component {
     }
 
     render() {
-        const { comeText } = this.state
         return(
             <>
-                <h1>{comeText}</h1>
-                <Dashboard changeThemeColor={this.switcher} />
+                <Dashboard changeThemeColor={this.switcher} colorTheme={this.state.colorTheme} />
             </>
         );
     }

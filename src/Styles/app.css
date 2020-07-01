@@ -1,4 +1,12 @@
 body{
-    background-color: #1d2029;;
+    margin: 0;
+    padding: 0;
+}
 
+.WhiteMode{
+    background-color: white;
+}
+
+.BlackMode{
+    background-color: #1d2029;
 }
