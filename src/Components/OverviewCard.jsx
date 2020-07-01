@@ -2,7 +2,7 @@ import React from 'react';
 import '../Styles/overviewCard.css'
 
 const OverviewCard = (props) => {
-    const { icon, views, isOk } = props;
+    const { icon, views, porcent, isOk } = props;
     return(
         <div className="OverviewCard-container">
             <div>
@@ -11,7 +11,7 @@ const OverviewCard = (props) => {
             </div>
             <div>
                 <h2>{views}</h2>
-                <p className={isOk ? 'green' : 'red'}>3%</p>
+                <p className={isOk ? 'green' : 'red'}>{porcent}</p>
             </div>
         </div>
     );

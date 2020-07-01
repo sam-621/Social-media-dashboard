@@ -1,4 +1,3 @@
-
 #whiteMode{
     background-color: white;
 }
@@ -6,22 +5,23 @@
     background-color: #1d2029;
 }
 
-h1, p{
+.DarkMode-Container div h1, p{
+    text-align: start;
     margin: 0;
 }
 .DarkMode-Container{
+    background-color: #f7f7f7;
+    height: 170px;
     display: flex;
     justify-content: space-between;
 }
-.DarkMode-Container div{
-    margin: 0 20px;
-}
+
 .switcher{
     height: 100%;
     align-self: center;
 }
 .Cards-container{
-    margin-top: 50px;
+    margin-top: -50px;
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 20px;

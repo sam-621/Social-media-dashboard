@@ -22,12 +22,12 @@ class App extends React.Component {
 
     render() {
         return(
-            <>
-                <Dashboard changeThemeColor={this.switcher} colorTheme={this.state.colorTheme} />
-                <Overview
-
-                />
-            </>
+            <div className={this.state.colorTheme ? 'whiteMode' : 'darkMode'}>
+                <div style={{marginLeft: 30 + 'px', marginRight: 30+'px'}}>
+                    <Dashboard changeThemeColor={this.switcher} />
+                    <Overview />
+                </div>
+            </div>
         );
     }
 }

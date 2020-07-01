@@ -15,7 +15,7 @@ const DashboardCard = (props) => {
                 <p><strong>{Followers}</strong> <br/> F O L L O W E R S</p>
             </div>
             <div>
-                <p className={isOk ? 'green' : 'red'}>12 today</p>
+                <p className={isOk ? 'green Follower-status' : 'red Follower-status'}>12 today</p>
             </div>
         </div>
     );

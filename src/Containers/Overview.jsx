@@ -2,7 +2,6 @@ import React from 'react';
 import OverviewCard from '../Components/OverviewCard';
 import '../Styles/Overview.css'
 
-import DashboardCard from '../Components/DashboardCard'
 import FB from '../img/icon-facebook.svg';
 import Insta from '../img/icon-instagram.svg'
 import YT from '../img/icon-youtube.svg'
@@ -17,56 +16,61 @@ const Overview = () => {
                     <OverviewCard
                     icon={FB}
                     views={78}
-                    isOK="true"
+                    porcent="3"
+                    isOk
                 />
                 </div>
                 <div>
                     <OverviewCard
                     icon={FB}
                     views={78}
-                    isOK="true"
+                    porcent="2"
                 />
                 </div>
                 <div>
                     <OverviewCard
-                    icon={FB}
+                    icon={Insta}
                     views={78}
-                    isOK="true"
+                    porcent="2257"
+                    isOk
                 />
                 </div>
                 <div>
                     <OverviewCard
-                    icon={FB}
+                    icon={Insta}
                     views={78}
-                    isOK="true"
+                    porcent="1375"
+                    isOk
                 />
                 </div>
                 <div>
                     <OverviewCard
-                    icon={FB}
+                    icon={Twitter}
                     views={78}
-                    isOK="true"
+                    porcent="303"
+                    isOK
                 />
                 </div>
                 <div>
                     <OverviewCard
-                    icon={FB}
+                    icon={Twitter}
                     views={78}
-                    isOK="true"
+                    porcent="553"
+                    isOk
                 />
                 </div>
                 <div>
                     <OverviewCard
-                    icon={FB}
+                    icon={YT}
                     views={78}
-                    isOK="true"
+                    porcent="19"
                 />
                 </div>
                 <div>
                     <OverviewCard
-                    icon={FB}
+                    icon={YT}
                     views={78}
-                    isOK="true"
+                    porcent="12"
                 />
                 </div>
             </div>

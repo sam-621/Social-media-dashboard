@@ -8,10 +8,10 @@ import YT from '../img/icon-youtube.svg'
 import Twitter from '../img/icon-twitter.svg'
 
 const DashBoard = (props) => {
-    const { changeThemeColor, colorTheme } = props;
+    const { changeThemeColor} = props;
     return(
         <>
-            <div className="DarkMode-Container" id={colorTheme ? 'whiteMode' : 'darkMode'}>
+            <div className="DarkMode-Container">
                 <div>
                     <h1>Social Media Dashboard</h1>
                     <p>Total Followers: 25</p>

@@ -28,6 +28,12 @@ div{
 .Me p img{
     margin-right: 10px;
 }
+.Followers p{
+    text-align: center;
+}
+.Follower-status{
+    text-align: center;
+}
 .Followers p strong{
     font-size: 50px;
 }
