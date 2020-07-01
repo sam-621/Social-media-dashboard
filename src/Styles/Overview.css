@@ -1,0 +1,17 @@
+.Overview{
+    margin-top: 40px;
+}
+.Overview h1{
+    text-align: start;
+    margin-bottom: 20px;
+}
+.Overview-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+}
+.Overview-container div{
+    background-color: #f0f3fa;
+    padding: 8px;
+    border-radius: 8px;
+}

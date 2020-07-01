@@ -1,0 +1,18 @@
+.green{
+    color: #37ce8f;
+}
+.red{
+    color: tomato;
+}
+
+.OverviewCard-container{
+    display: grid;
+    grid-gap: 40px;
+}
+.OverviewCard-container div{
+    display: flex;
+    justify-content: space-between;
+}
+.OverviewCard-container div h2{
+    margin: 0;
+}

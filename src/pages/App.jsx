@@ -2,6 +2,7 @@ import React from 'react';
 import '../Styles/app.css'
 
 import Dashboard from '../Containers/DashBoard';
+import Overview from '../Containers/Overview';
 
 class App extends React.Component {
     constructor(props) {
@@ -23,6 +24,9 @@ class App extends React.Component {
         return(
             <>
                 <Dashboard changeThemeColor={this.switcher} colorTheme={this.state.colorTheme} />
+                <Overview
+
+                />
             </>
         );
     }
