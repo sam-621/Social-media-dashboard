@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Social-media-dashboard/static/css/main.5cdb1bd6.chunk.css",
+    "main.css": "/Social-media-dashboard/static/css/main.54f8b60b.chunk.css",
     "main.js": "/Social-media-dashboard/static/js/main.7d05bc1b.chunk.js",
     "main.js.map": "/Social-media-dashboard/static/js/main.7d05bc1b.chunk.js.map",
     "runtime-main.js": "/Social-media-dashboard/static/js/runtime-main.df83acd9.js",
@@ -8,9 +8,9 @@
     "static/js/2.7fcb839f.chunk.js": "/Social-media-dashboard/static/js/2.7fcb839f.chunk.js",
     "static/js/2.7fcb839f.chunk.js.map": "/Social-media-dashboard/static/js/2.7fcb839f.chunk.js.map",
     "index.html": "/Social-media-dashboard/index.html",
-    "precache-manifest.c3d06f8d8c2629bd2a5078d10a6226c5.js": "/Social-media-dashboard/precache-manifest.c3d06f8d8c2629bd2a5078d10a6226c5.js",
+    "precache-manifest.8f5085b6b6d088557109804ffdc31a2a.js": "/Social-media-dashboard/precache-manifest.8f5085b6b6d088557109804ffdc31a2a.js",
     "service-worker.js": "/Social-media-dashboard/service-worker.js",
-    "static/css/main.5cdb1bd6.chunk.css.map": "/Social-media-dashboard/static/css/main.5cdb1bd6.chunk.css.map",
+    "static/css/main.54f8b60b.chunk.css.map": "/Social-media-dashboard/static/css/main.54f8b60b.chunk.css.map",
     "static/js/2.7fcb839f.chunk.js.LICENSE.txt": "/Social-media-dashboard/static/js/2.7fcb839f.chunk.js.LICENSE.txt",
     "static/media/flecha-hacia-arriba-red.svg": "/Social-media-dashboard/static/media/flecha-hacia-arriba-red.b47045cd.svg",
     "static/media/flecha-hacia-arriba.svg": "/Social-media-dashboard/static/media/flecha-hacia-arriba.7bb5bdb8.svg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.df83acd9.js",
     "static/js/2.7fcb839f.chunk.js",
-    "static/css/main.5cdb1bd6.chunk.css",
+    "static/css/main.54f8b60b.chunk.css",
     "static/js/main.7d05bc1b.chunk.js"
   ]
 }
