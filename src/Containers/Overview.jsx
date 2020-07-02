@@ -11,7 +11,7 @@ const Overview = (props) => {
     const { colorTheme } = props;
     return(
         <div className="Overview">
-            <h1 style={colorTheme ? {color: '#5f616d'} : {color: 'white'}}>Overview - Today</h1>
+            <h1 style={{color: '#5f616d'}}>Overview - Today</h1>
             <div className="Overview-container">
                 <div className={colorTheme ? 'OverviewCard-white' : 'OverviewCard-dark'}>
                     <OverviewCard

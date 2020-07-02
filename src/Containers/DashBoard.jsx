@@ -18,7 +18,15 @@ const DashBoard = (props) => {
                     <p className={colorTheme ? "Logo white" : "Logo dark"}>Total Followers: 25</p>
                 </div>
                 <div className="switcher">
-                    <button onClick={changeThemeColor}>Toggle</button>
+                    <div>
+                        <p>Dark mode</p>
+                    </div>
+                    <div>
+                        <label className="switch">
+                            <input type="checkbox" onClick={changeThemeColor}/>
+                            <span className="slider round"></span>
+                        </label>
+                    </div>
                 </div>
             </div>
             <div className="Cards-container">
