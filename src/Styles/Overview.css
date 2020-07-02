@@ -26,3 +26,9 @@
     padding: 15px;
     border-radius: 8px;
 }
+
+@media screen and (max-width: 730px) {
+    .Overview-container{
+        grid-template-columns: auto;
+    }
+}

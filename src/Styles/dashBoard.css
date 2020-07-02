@@ -116,3 +116,34 @@ input:checked + .slider:before {
 .slider.round:before {
     border-radius: 50%;
 }
+
+@media screen and (max-width: 730px) {
+    
+    .DarkMode-container{
+        display: block;
+    }
+    .WhiteMode-Container{
+        display: block;
+    }
+    .h1-dark{
+        margin-top: 0;
+    }
+    .h1{
+        margin-top: 0;
+    }
+    .switcher{
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+    }
+    .switcher div p{
+        margin-left: 30px;
+    }
+    .Cards-container{
+        margin-top: 0;
+        display: block;
+    }
+    .Cards-container div{
+        margin-bottom: 20px;
+    }
+}
